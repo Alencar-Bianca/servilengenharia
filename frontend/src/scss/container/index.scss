@@ -11,3 +11,22 @@
 .d-none {
   display: none;
 }
+.subtitle {
+  font-family: var(--sub-title);
+  font-size: 17px;
+  font-weight: 500;
+}
+.title {
+  font-family: var(--title);
+  font-size: 38px;
+  margin: 12px 0;
+  font-weight: bold;
+}
+
+.text {
+  width: 100%;
+  max-width: 600px;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 20px;
+}

@@ -1,0 +1,50 @@
+:host {
+  .banner {
+    position: relative;
+    width: 100%;
+    height: 580px;
+    background-image: url('/images/banner/banner.png');
+    background-position: center;
+    background-size: cover;
+
+    .overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: var(--black);
+      opacity: 0.8;
+      z-index: 1;
+    }
+    .info {
+      position: absolute;
+      top: 20%;
+      height: 100%;
+      z-index: 2;
+      padding: 0 2%;
+      color: #fff;
+      align-items: center;
+      justify-content: center;
+
+
+    }
+  }
+
+  @media screen and (max-width: 350px) {
+    .banner {
+      .info {
+        top: 25px;
+        .subtitle {
+          font-size: 14px;
+        }
+        .title {
+          font-size: 28px;
+        }
+
+        .text {
+          font-size: 18px;
+          line-height: inherit;
+        }
+      }
+    }
+  }
+}
